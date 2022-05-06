@@ -1,11 +1,116 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="hero">
-    <h2>{{hero.title }}</h2>
-</div>
+<head>
+
+    <!-- load the head content from the head.html file -->
+    <!-- This content is inserted into the base.html file -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- load our reset stylesheet -->
+<link rel="stylesheet" href="assets/css/reset.css">
+<!-- load our main stylesheet -->
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!-- you could add favicons etc here -->
+
+    <!-- set the site title to be a variable, defined in the md file -->
+    <title>11056 Project 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,500&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <nav> 
+                <h2 class="logo">11056 Proj<span>ect 2</span></h2>
+             <ul>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#'>About Artist</a></li>
+        <li><a href='#'>Skills</a></li>
+         <li><a href='#'>About Work</a></li>
+        </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="inner-wrapper">
+             <img src="assets/images/background0.jpeg">
+            <!-- STOP! Don't add anything more to the base template -->
+            <!-- the content here is loaded through the homepage template -->
+            
 
 <div class="main-content">
-    {{ content }}
+    <h1>Louise Weaver</h1>
+    <p>Australian Artist working in Media.</p>
+
 </div>
+            
+        </div>
+    </main>
+
+    <!------About section start------> 
+<section class="about">
+    <div class="main">
+    <img src="assets/images/Portrait.jpeg">
+    <div class="about-text">
+        <h2>About the Artist</h2>
+        <h5>Media <span>Developer</span></h5>
+        <p>Weaver has held numerous Individual Exhibitions including:   Between Appearances: The art of Louise Weaver curated by Melissa Keys, Buxton   Contemporary, The University of Melbourne, 2019 – 2020; Behind the scenes,   Darren Knight Gallery, Sydney, 2019; The Kind That Gives Body To Words,   Darren Knight Gallery, Sydney (2017).</p>
+        </div>
+    </div>
+    </section>
+    
+<!------skills section start------>
+<div class="skills">
+    <div class="title">
+    <h2>Skills</h2>
+    </div>
+    
+    <div class="box">
+    <div class="card">
+    <h5>Scruptural Installations</h5>
+        <div class="pra">
+            <p>Louise Weaver’s multidisciplinary practice employs an assortment of media in the creation of both individual works and expansive sculptural installations that centre around the natural world.</p>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+    <div class="card">
+    <h5>Paintings</h5>
+        <div class="pra">
+            <p>The paintings, sculptures and environments that Weaver creates interact with a broad range of themes. Weaver has a fascination with metamorphosis, cycles of growth and the intricacies of camouflage.</p>
+    </div>
+        </div>
+    </div>
+        <div class="box">
+            <div class="card">
+    <h5>Movement and Sound</h5>
+        <div class="pra">
+            <p>Through the intricate traceries, patterns, webs and nets that appear and reappear throughout her practice, Weaver suggests a complex interconnected universe of fragile beauty that comprises things real and imagined, fleeting and eternal.</p>
+                </div>
+            </div>
+        </div>
+    
+    <!------About the Work---->
+    <div class="about-the-work">
+    <h2>About the Work</h2>
+    <p>Her work plays with these concepts and extends them into ideas surrounding artificiality, transformation, social themes and feminism,<br> underpinned by the enduring power of mythology, make-believe and memory.</p>
+    </div>
+         
+
+    <!-- The content in this file is inserted into the base.html file -->
+<footer>
+    <div class="inner-wrapper">
+        <p>11056 Project 2</p>
+        <p>© 2022, By Georgia Porter</p>
+    </div>
+</footer>
+
+</body>
+
+</html>
