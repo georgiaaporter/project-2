@@ -1,4 +1,3 @@
-# 11056-project2
 
 ## 11056 Project 2 Starter
 
@@ -26,6 +25,3 @@ Go to: http://localhost:8080 to view your site
 Run `npm build`
 
 Open up your site folder and you'll discover a folder within it called `final-website` this is where your actual site files are located. 
-
-echo '# Page header' > README.md
-npx @11ty/eleventy 
