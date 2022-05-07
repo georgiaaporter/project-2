@@ -9,6 +9,7 @@
     width: 1170px;
     margin: auto;
 }
+
 img{
     min-height: 100vh;
     width: 100%;
@@ -146,6 +147,7 @@ nav ul li a:hover{
     overflow: hidden;
     text-align: center;
 }
+
 .card h5{
     font-size: 23px;
     display: block;
